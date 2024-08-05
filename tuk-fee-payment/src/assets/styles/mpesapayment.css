@@ -1,0 +1,69 @@
+
+body{
+    background-color: brown;
+}
+.mpesa-container {
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: grid;margin-top: 20px;
+   
+}
+.amount-class,
+.number-class {
+    display: inline-flex;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.number-class {
+   margin-left: 80px;
+}
+.amount-input,
+.phone-input {
+    border:none;
+    padding: 5px;
+    width: 200px;
+    border-radius: 4px;
+    margin: 20px;
+}
+.phone-input{
+    margin-right: 140px;
+}
+.mpesa-button {
+    background-color: green;
+    justify-content: center;
+    margin-left: 120px;
+ 
+}
+.mpesa-button:hover {
+    background-color: rgb(8, 199, 8);
+    transition: 0.5s;
+}
+
+@media (max-width:768px) {
+
+    .amount-class,
+    .number-class {
+    display:grid;
+    grid-column: flex;
+    font-size: 15px;
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+   }
+
+
+    .phone-input {
+        margin-left: 150px;
+    
+        
+
+    }
+    .mpesa-button{
+        justify-content: center;
+        margin-right: 120px;
+    }
+    
+}

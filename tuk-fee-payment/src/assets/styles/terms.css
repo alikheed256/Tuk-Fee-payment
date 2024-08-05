@@ -1,0 +1,17 @@
+.terms-conditions {
+    background-color: rgb(221, 212, 212);
+    width: 500px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    margin-left: 10px;
+}
+.terms-conditions p {
+    margin: 20px;
+}
+.terms-button {
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: rgb(168, 201, 230);
+}

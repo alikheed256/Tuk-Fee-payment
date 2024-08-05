@@ -1,0 +1,145 @@
+
+.main-section {
+  width: 100%;
+
+}  
+
+.error-message {
+  background-color: red;
+  width: 500px;
+  font-size: 12px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 250px;
+  color: white;
+  border-radius: 3px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
+
+
+
+.logout-button {
+  border-radius: 5px;
+  padding: 2px 5px;
+  border-radius: 5%;
+  padding: 7px;
+  background-color: red;
+  
+
+}
+
+
+.payment-button,
+.receipt-button,
+.card-button {
+  margin-left: 10px;
+  border-radius: 2px;
+  padding: 5px;
+  
+
+}
+.payment-button {
+  background-color: green;
+
+}
+.payment-button:hover {
+  background-color: rgb(8, 189, 8);
+}
+.receipt-button{
+  background-color: blue;
+}
+.receipt-button:hover {
+  background-color: rgb(57, 168, 233);
+}
+.card-button {
+  background-color: orange;
+}
+.card-button:hover {
+  background-color: rgb(194, 127, 3);
+}
+
+
+.details-class {
+
+  display:  grid;
+  margin-top: 20px;
+  grid-column: 2px;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  color: green;
+  font-weight: Bold;
+ 
+ 
+ 
+
+
+}
+.detail-class {
+  
+  display:  grid;
+  margin-top: 20px;
+  grid-column: 2px;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 10px;
+  padding: 10px;
+  display: none;
+
+}
+
+.fee-statement {
+  margin-top: 20px;
+}
+
+#fee-statement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: azure;
+}
+
+#fee-statement-table th, #fee-statement-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#fee-statement-table th {
+  background-color:rgb(0, 255, 242);
+  text-align: left;
+}
+
+.pdf-button {
+  background-color:red;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 900px;
+}
+
+@media (max-width: 768px ) {
+  .details-class {
+    width: 90%;
+
+  }
+  .pdf-button {
+    margin-left: 250px;
+  }
+  .error-message {
+    width: 300px;
+    margin-left: 20px;
+    font-size: 10px;
+
+  }
+  
+}

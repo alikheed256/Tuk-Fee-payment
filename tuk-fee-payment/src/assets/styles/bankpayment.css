@@ -1,0 +1,43 @@
+.bank-container{
+
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: grid;margin-top: 20px;
+}
+
+.service-class{
+    
+    display: grid;
+    font-size: 15px;
+    font-family:'Times New Roman', serif;
+    font-weight: 20px;
+    display: grid;
+    align-items: center;
+}
+.ref-class {
+    display: inline-flex;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.bank-input  {
+    border:none;
+    padding: 5px;
+    width: 200px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.bank-button {
+    background-color: blue;
+    padding: 6px 4px;
+    width: 150px;
+
+}
+.bank-button:hover{
+    background-color: rgb(0, 162, 255);
+    transition: 0.5s;
+}

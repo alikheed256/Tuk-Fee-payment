@@ -1,0 +1,59 @@
+.sign-in-container{
+  margin-top: 100px;
+}
+.sign-in-section {
+    padding: 5px;
+    margin-top: 50px;
+    display: relative;
+}
+
+.sign-in-section , .home-section {
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 12px;
+    width: 200px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-in-section h4, .home-section h4 {
+    margin-bottom: 0.5 rem;
+  }
+  
+  .sign-in-section  form, .home-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sign-in-section  label, .sign-in-section  input, .sign-in-section  button {
+    margin-bottom: 0.3rem;
+  }
+  
+  .sign-in-section  input, .sign-in-section  button {
+    padding: 0.3rem;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .sign-in-section a {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .sign-in-section  p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .sign-in-section p a:hover {
+    text-decoration: underline;
+  }
+  
