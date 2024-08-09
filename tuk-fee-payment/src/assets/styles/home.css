@@ -126,20 +126,73 @@
   margin-top: 20px;
   margin-left: 900px;
 }
+.fee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-@media (max-width: 768px ) {
-  .details-class {
-    width: 90%;
 
-  }
-  .pdf-button {
-    margin-left: 250px;
-  }
-  .error-message {
-    width: 300px;
-    margin-left: 20px;
-    font-size: 10px;
+#feereceipt {
+  width: 148mm; 
+  height: 210mm; 
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px dotted #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-image: url(assets/images/logo.png);
+  background-size: cover, 100% 10px, 10px 100%;
+  background-repeat: no-repeat,  repeat-x
 
-  }
+}
+
+.feereceipt::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background: url('') no-repeat center center;
+  background-size: contain;
+  opacity: 0.1;
+}
+
+.head-section {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+.serial-number {
+  color: red;
+  margin-top: 30px;
+  margin-left: 130px;
+  font-weight:bolder;
+  font-size: 15px;
+
+}
+.student-details {
+  font-size: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+
+}
+.date-time,
+.signature {
+  font-size: 16px;
+  margin-top: 20px;
+  
   
 }
+
+.signature{
+  margin-top: 20px;
+}
+
+

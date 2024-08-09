@@ -5,7 +5,7 @@ const credentialsSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
     googleId: { type: String },
-    studentRecord: { type: mongoose.Schema.Types.ObjectId, ref: 'students_record' },
+    StudentModel: { type: mongoose.Schema.Types.ObjectId, ref: 'students_record' },
 });
 
 

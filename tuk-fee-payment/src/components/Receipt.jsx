@@ -46,8 +46,8 @@ function Receipt() {
           <div className="reciept-contaier">
             <div className="receipt-details"> 
                 <p>SNO: {serialnumber}</p>
-                <h5>Examination Card</h5>
-                <p>TIme: {currentTime}</p>
+                <h5>Fee Statement</h5>
+                <p>Time: {currentTime}</p>
                 <p>Date: {currentDate}</p>
                 <p>Signature:_____________________</p>
 

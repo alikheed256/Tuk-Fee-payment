@@ -33,7 +33,7 @@ function MpesaPayment() {
         setSuccess(null);
 
         try {
-            const response = await axios.post(' https://3a55-196-201-225-126.ngrok-free.app/api/stkPush', { phone, amount });
+            const response = await axios.post('https://319f-41-215-129-18.ngrok-free.app/api/stkPush', { phone, amount });
             console.log('Response Data:', response.data); 
             setSuccess('Payment initiated successfully. Please check your phone.');
         } catch (err) {
